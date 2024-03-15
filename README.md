@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+### SPA Color Catalog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Single Page Application (SPA) developed as part of a coding task. The goal of the task was to implement an application with one view using React and TypeScript, displaying a paginated list of products retrieved from an API endpoint. Additionally, the application should feature filtering by product ID, a modal displaying detailed information about each product, and pagination navigation.
 
-## Available Scripts
+#### Features
+- **Product List**: Displays a paginated list of products, each with properties like ID, name, and year.
+- **Filtering**: Allows users to filter results by product ID using a text input at the top of the view.
+- **Modal**: Clicking on a product row opens a modal displaying detailed information about the product.
+- **Pagination**: Provides navigation between pages with "next" and "previous" arrows.
+- **Error Handling**: Informs users about API errors, such as 4XX or 5XX responses.
+- **Debouncing**: Utilizes debouncing to improve performance when filtering results.
 
-In the project directory, you can run:
+#### Technology Stack
+- **Frontend Framework**: React
+- **Type System**: TypeScript
+- **Styling Library**: Material-UI
+- **State Management**: React Context API 
+- **Testing Framework**: Jest
 
-### `npm start`
+#### API Endpoint
+The application fetches product data from the following API endpoint:
+`https://reqres.in/api/products`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Installation and Setup
+1. Ensure you have Node.js installed (version 20.11.0 or later).
+2. Clone the repository from GitHub.
+3. Navigate to the project directory and run `npm install` to install dependencies.
+4. Run `npm start` to start the application.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### Testing
+The project includes unit tests implemented using Jest. To run the tests, execute `npx jest` in the project directory.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Additional Notes
+- Pagination and filtering are performed within the API, not on the frontend side.
+- Pagination and filtering parameters are reflected in the URL, allowing users to copy and share specific views.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Deployment 
+- Deployed Version: [Link to deployed version](#)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
