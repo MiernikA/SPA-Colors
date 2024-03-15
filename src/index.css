@@ -1,5 +1,4 @@
 body {
-
   height: 100vh;
   padding: 2vh 1vw;
   overflow: hidden;
@@ -14,7 +13,13 @@ body {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow: auto;
 
+
+
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 
 code {
