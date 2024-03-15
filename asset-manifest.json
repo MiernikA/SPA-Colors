@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SPA-Colors/static/css/main.ce01277f.css",
-    "main.js": "/SPA-Colors/static/js/main.2cb64f2c.js",
+    "main.js": "/SPA-Colors/static/js/main.bbc9f9ff.js",
     "static/js/453.9d14d4ea.chunk.js": "/SPA-Colors/static/js/453.9d14d4ea.chunk.js",
     "index.html": "/SPA-Colors/index.html",
     "main.ce01277f.css.map": "/SPA-Colors/static/css/main.ce01277f.css.map",
-    "main.2cb64f2c.js.map": "/SPA-Colors/static/js/main.2cb64f2c.js.map",
+    "main.bbc9f9ff.js.map": "/SPA-Colors/static/js/main.bbc9f9ff.js.map",
     "453.9d14d4ea.chunk.js.map": "/SPA-Colors/static/js/453.9d14d4ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce01277f.css",
-    "static/js/main.2cb64f2c.js"
+    "static/js/main.bbc9f9ff.js"
   ]
 }
