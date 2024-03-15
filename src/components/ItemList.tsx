@@ -66,6 +66,7 @@ const StyledTableContainer = styled(TableContainer)(({ theme }) => ({
     height: '44.5rem',
     background: 'linear-gradient(to bottom, #f0f0ff, #e0e0ef)',
     overflow: 'hidden',
+    boxShadow: '0 0.2rem 0.1rem 0.2rem rgba(0, 0, 0, 0.2)',
 
 }));
 
