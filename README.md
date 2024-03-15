@@ -37,5 +37,5 @@ The project includes unit tests implemented using Jest. To run the tests, execut
 
 
 #### Deployment 
-- Deployed Version: [[Link to deployed version](https://spa-colors.vercel.app/page=1)
+- Deployed Version: [[Link to deployed version](https://spa-colors.vercel.app/page=1)]
 
